@@ -1,0 +1,81 @@
+OrderedDict([(1, 5.2000000000000002), (36, 5.2000000000000002), (10, 5.2000000000000002), (17, 5.2000000000000002), (32, 2.8999999999999999), (5, 2.8999999999999999), (15, 2.8999999999999999), (25, 2.8999999999999999), (29, 2.8999999999999999)])
+OrderedDict([(37, 9.5), (2, 5.2000000000000002), (4, 4.3000000000000007), (9, 4.3000000000000007), (19, 4.3000000000000007), (21, 4.3000000000000007), (38, 4.3000000000000007), (14, 2.2000000000000002), (36, 2.2000000000000002), (1, 2.1000000000000001), (6, 2.1000000000000001), (29, 2.1000000000000001)])
+OrderedDict([(22, 7.9000000000000004), (32, 4.8000000000000007), (8, 4.0), (24, 4.0), (2, 3.8000000000000003), (20, 3.8000000000000003), (33, 3.8000000000000003), (14, 3.7000000000000002), (19, 3.7000000000000002), (13, 2.8999999999999999), (27, 2.8999999999999999), (35, 2.8999999999999999), (11, 2.7000000000000002), (34, 2.7000000000000002), (3, 2.2000000000000002), (5, 1.1000000000000001), (6, 1.1000000000000001), (10, 1.1000000000000001), (12, 1.1000000000000001), (15, 1.1000000000000001), (21, 1.1000000000000001), (23, 1.1000000000000001), (25, 1.1000000000000001), (29, 1.1000000000000001), (30, 1.1000000000000001), (38, 1.1000000000000001)])
+OrderedDict([(7, 2.8999999999999999), (13, 2.8999999999999999), (35, 2.8999999999999999), (27, 2.8999999999999999), (30, 2.8999999999999999), (32, 1.8999999999999999), (33, 1.8999999999999999), (3, 1.8999999999999999), (4, 1.8999999999999999), (5, 1.8999999999999999), (9, 1.8999999999999999), (10, 1.8999999999999999), (12, 1.8999999999999999), (15, 1.8999999999999999), (21, 1.8999999999999999), (24, 1.8999999999999999)])
+OrderedDict([(18, 7.9000000000000004), (5, 5.2000000000000002), (12, 5.2000000000000002), (8, 4.2000000000000002), (32, 3.7000000000000002), (10, 3.7000000000000002)])
+
+Answer 1
+nr_of_retrieved_documents: 2 F: 0.285714285714
+nr_of_retrieved_documents: 3 F: 0.5
+nr_of_retrieved_documents: 4 F: 0.666666666667
+nr_of_retrieved_documents: 5 F: 0.6
+nr_of_retrieved_documents: 6 F: 0.727272727273
+nr_of_retrieved_documents: 7 F: 0.666666666667
+nr_of_retrieved_documents: 8 F: 0.769230769231
+nr_of_retrieved_documents: 9 F: 0.714285714286
+
+Answer 2
+nr_of_retrieved_documents: 1 F: 0.133333333333
+nr_of_retrieved_documents: 2 F: 0.25
+nr_of_retrieved_documents: 3 F: 0.352941176471
+nr_of_retrieved_documents: 4 F: 0.444444444444
+nr_of_retrieved_documents: 5 F: 0.526315789474
+nr_of_retrieved_documents: 6 F: 0.6
+nr_of_retrieved_documents: 7 F: 0.666666666667
+nr_of_retrieved_documents: 8 F: 0.727272727273
+nr_of_retrieved_documents: 9 F: 0.782608695652
+nr_of_retrieved_documents: 10 F: 0.833333333333
+nr_of_retrieved_documents: 11 F: 0.88
+nr_of_retrieved_documents: 12 F: 0.923076923077
+
+Answer 3
+nr_of_retrieved_documents: 1 F: 0.133333333333
+nr_of_retrieved_documents: 2 F: 0.25
+nr_of_retrieved_documents: 3 F: 0.235294117647
+nr_of_retrieved_documents: 4 F: 0.222222222222
+nr_of_retrieved_documents: 5 F: 0.210526315789
+nr_of_retrieved_documents: 6 F: 0.2
+nr_of_retrieved_documents: 7 F: 0.285714285714
+nr_of_retrieved_documents: 8 F: 0.363636363636
+nr_of_retrieved_documents: 9 F: 0.434782608696
+nr_of_retrieved_documents: 10 F: 0.416666666667
+nr_of_retrieved_documents: 11 F: 0.4
+nr_of_retrieved_documents: 12 F: 0.384615384615
+nr_of_retrieved_documents: 13 F: 0.444444444444
+nr_of_retrieved_documents: 14 F: 0.428571428571
+nr_of_retrieved_documents: 15 F: 0.48275862069
+nr_of_retrieved_documents: 16 F: 0.466666666667
+nr_of_retrieved_documents: 17 F: 0.516129032258
+nr_of_retrieved_documents: 18 F: 0.5
+nr_of_retrieved_documents: 19 F: 0.484848484848
+nr_of_retrieved_documents: 20 F: 0.470588235294
+nr_of_retrieved_documents: 21 F: 0.457142857143
+nr_of_retrieved_documents: 22 F: 0.444444444444
+nr_of_retrieved_documents: 23 F: 0.486486486486
+nr_of_retrieved_documents: 24 F: 0.526315789474
+nr_of_retrieved_documents: 25 F: 0.512820512821
+nr_of_retrieved_documents: 26 F: 0.5
+
+Answer 4
+nr_of_retrieved_documents: 4 F: 0.2
+nr_of_retrieved_documents: 5 F: 0.181818181818
+nr_of_retrieved_documents: 6 F: 0.333333333333
+nr_of_retrieved_documents: 7 F: 0.307692307692
+nr_of_retrieved_documents: 8 F: 0.285714285714
+nr_of_retrieved_documents: 9 F: 0.266666666667
+nr_of_retrieved_documents: 10 F: 0.25
+nr_of_retrieved_documents: 11 F: 0.235294117647
+nr_of_retrieved_documents: 12 F: 0.333333333333
+nr_of_retrieved_documents: 13 F: 0.315789473684
+nr_of_retrieved_documents: 14 F: 0.3
+nr_of_retrieved_documents: 15 F: 0.380952380952
+nr_of_retrieved_documents: 16 F: 0.454545454545
+
+Answer 5
+nr_of_retrieved_documents: 1 F: 0.333333333333
+nr_of_retrieved_documents: 2 F: 0.571428571429
+nr_of_retrieved_documents: 3 F: 0.75
+nr_of_retrieved_documents: 4 F: 0.888888888889
+nr_of_retrieved_documents: 5 F: 0.8
+nr_of_retrieved_documents: 6 F: 0.909090909091
+

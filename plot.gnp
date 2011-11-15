@@ -1,0 +1,12 @@
+set terminal svg enhanced size 2200 1000 fname "Times" fsize 36
+set output "F.svg"
+set ylabel "Recall-Precision"
+set xlabel "retrieved documents"
+set xtics 1
+set size 1,1
+plot 'recall_precision1.dat' using 2:4 title 'Answer1' with linespoints, \
+'recall_precision2.dat' using 2:4 title 'Answer2' with linespoints, \
+'recall_precision3.dat' using 2:4 title 'Answer3' with linespoints, \
+'recall_precision4.dat' using 2:4 title 'Answer4' with linespoints, \
+'recall_precision5.dat' using 2:4 title 'Answer4' with linespoints, \
+'recall_precision_avg.dat' using 1:(($2+$3+$4+$5+$6)/$7) title 'Average' with linespoints
