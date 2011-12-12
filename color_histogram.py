@@ -56,13 +56,6 @@ def get_image_list2():
         img_list1.append("../img2/%02d.JPG" % i)
     return img_list1
         
-
-grey=Image.open("../img2/01.JPG").convert('L')
-body = grey.getdata()
-print repr(body[0])
-
-img_list1 = get_image_list1()
-img_list2 = get_image_list2()
    #thread.start_new_thread( print_time, ("Thread-1", 2, ) )
    #thread.start_new_thread( print_time, ("Thread-2", 4, ) ) Image.open('input.bmp').convert('L')
 
@@ -81,19 +74,26 @@ def get_histograms():
         pickle.dump(histograms, data, -1)
     return histograms
     
-histograms = get_histograms()
-hitlist = defaultdict(list)
+def run(img_list):
+    histograms = get_histograms()
+    hitlist = defaultdict(list)
+    
+    img_list_copy = img_list[:]
+    for img1 in img_list:
+        img_list_copy.pop(0)
+        for img2 in img_list_copy:
+            diff = histogram_diff(histograms[img1], histograms[img2])
+            hitlist[img1].append((img2, diff))
+            hitlist[img2].append((img1, diff))
+    for key in hitlist.keys():
+        hitlist[key].sort(lambda x,y: cmp(x[1],y[1]))
+        print key +": " + repr(hitlist[key][0:10])
 
-img_list1_copy = img_list1
-for img1 in img_list1:
-    for img2 in img_list1_copy:
-        diff = histogram_diff(histograms[img1], histograms[img2])
-        hitlist[img1].append((img2, diff))
-        hitlist[img2].append((img1, diff))
-    img_list1_copy.pop(0)
-def f(x,y):
-    return cmp(x[1],y[1])
-for key in hitlist.keys():
-    hitlist[key].sort(lambda x,y: f(x,y))
-    print key +": " + repr(hitlist[key])
+
+img_list1 = get_image_list1()
+img_list2 = get_image_list2()
+run(img_list1)
+run(img_list2)
+    
+
 
